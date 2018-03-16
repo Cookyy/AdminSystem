@@ -1,0 +1,41 @@
+name: AdminSystem
+main: fr.cookyy_.admin.AdminSystemMain
+author: Cookyy_ 
+version: 4.3
+description: AdminSystem - /admin ❤ 
+commands: 
+   admin:
+     description: Open GUI ❤  
+     permission: adminfr.admin
+     default: op
+   adminhelp:
+     description: Help plugin ❤ 
+     permission: adminfr.adminhelp
+   adminclear:
+     description: Clear Inventory ❤ 
+     permission: adminfr.clear
+   adminhat:
+     description: News Hats ❤
+     permission: adminfr.adminhat
+   adminmute:
+     description: Mute Player ❤
+     permission: adminfr.adminmute
+   adminec:
+     description: Enderchest ❤
+     permission: adminfr.adminec
+   admintp:
+     description: TP to Player ❤  
+     permission: adminfr.admintp
+     default: op
+   admininvsee:
+     description: InvSee ❤
+     permission: adminfr.admininvsee
+   alert:
+     description: Send Alert Server ❤
+     permission: adminfr.alert
+   msg:
+    description: Send Message ❤
+    aliases: [m]
+   reply:
+    description: Reply Message ❤
+    aliases: [r]
